@@ -1,0 +1,32 @@
+body{
+
+    background-color: rgb(136, 134, 134);
+    color: rgb(15, 15, 15);
+}
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    grid-area: menu;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.caja{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    background-color: crimson;
+    border: solid rgb(26, 25, 25);
+    box-shadow: 10px 5px 5px black
+}
